@@ -1,7 +1,7 @@
 # iOSExtension
 It is a library for iOS component extension.
 
-To use this library 
+#To use this library 
 Write in pod file 
 
 
@@ -9,7 +9,7 @@ Write in pod file
 
 It is compatible to iOS 11.0 and Higher.
 
-Usage:
+#Usage:
 
 To convert timestamp to date string
 
