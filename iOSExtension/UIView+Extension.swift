@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 public extension UIView{
-    func blurEffect(view: UIView){
+    func blurEffect(){
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
+        blurEffectView.frame = self.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.addSubview(blurEffectView)
+        self.addSubview(blurEffectView)
     }
 }
