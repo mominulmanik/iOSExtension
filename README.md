@@ -14,12 +14,12 @@ Usage:
 To convert timestamp to date string
 
 use below method:
-convertTimeStampToString(timeStamp: <#T##Int64#>, dateFormate: <#T##String#>, locale: <#T##String#>, timezone: <#T##String#>)
+convertTimeStampToString(timeStamp: Int64, dateFormate: String, locale: String, timezone: String)
 
 To convert timestamp to date string
 
 use below method:
-convertStringToTimeStamp(dateString: <#T##String#>, dateFormate: <#T##String#>)
+convertStringToTimeStamp(dateString: String, dateFormate: String)
 
 TO add blur effect in view
 
